@@ -1,2 +1,28 @@
 
 /* Your CSS Code here. */
+nav{
+    background-color: #333;
+	color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+nav ul{
+    display: flex;
+    padding: 10px;
+}
+nav li{
+    margin:0 10px;
+}
+nav a{
+    font-weight: bold;
+    border-radius: 5px;
+    color: #FFF;
+    padding: 10px;
+
+}
+nav a:hover {
+    background-color: #fff;
+    color: #333;
+}
